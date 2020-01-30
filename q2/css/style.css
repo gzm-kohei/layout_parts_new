@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.wrapper_box {
+  background-color: #eff3fa;
+  width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.text_left { 
+  float: left;
+}
+
+.pp_left {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.text_right {
+  float: right;
+}
+
+.pp_right {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+/* 回答はここに書いてね */
+
+/* 回答はここに書いてね */

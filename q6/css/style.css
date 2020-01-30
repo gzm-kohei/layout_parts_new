@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+
+
+/* .text, .mar {
+  text-align: center;
+  width: 90px;
+  padding: 10px;
+}
+
+.text {
+  display: inline-block;
+  background-color:#e6f2ff;
+}
+
+.mar {
+  margin: 0 auto;
+} */
+
+
+
+/* textとmarginのボックス */
+
+.q6box-text {
+  background-color: #e6f2ff;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 90px;
+}
+
+.align-box .q6box-text {
+  display: inline-block;
+}
+
+.align-box {
+  text-align: center;
+}
+
+.margin-box {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* tableのボックス */
+
+
+.around-tab {
+  display: table;
+}
+
+.div-tab {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.p-tab {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+}
+
+
+/* flexのボックス */
+.fx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fl {
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* position固定のボックス */
+
+.is-stable {
+  position: relative;
+}
+
+
+.inn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* position可変のボックス */
+
+.is-flexible {
+  position: relative;
+}
+
+.ner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* 回答はここに書いてね */
