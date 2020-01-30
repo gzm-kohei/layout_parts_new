@@ -46,17 +46,17 @@
 /* tableのボックス */
 
 
-.around-tab {
+.around-table-box {
   display: table;
 }
 
-.div-tab {
+.div-table-box {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-.p-tab {
+.p-table-box {
   display: inline-block;
   background-color: #fff;
   padding: 10px;
@@ -64,13 +64,13 @@
 
 
 /* flexのボックス */
-.fx {
+.flex-box {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.fl {
+.flex-inner-box {
   background-color: #fff;
   padding: 10px;
 }
@@ -82,7 +82,7 @@
 }
 
 
-.inn {
+.is-stable-inner-box {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -97,7 +97,7 @@
   position: relative;
 }
 
-.ner {
+.is-flexible-inner-box {
   position: absolute;
   top: 50%;
   left: 50%;

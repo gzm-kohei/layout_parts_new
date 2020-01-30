@@ -2,29 +2,39 @@
 
 /* 回答はここに書いてね */
 
+.content_box {
+  margin-top: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ECF1F2;
+}
 
-.box {
+.content_box :first-child {
+  margin-top: 0;
+}
+
+.line-box {
   display: table;
   table-layout: fixed;
   width: 100%;
   text-align: center;
 }
 
-.top, .middle, .bottom, .blue, .yellow, .red {
+.inner-box {
   display:table-cell;
-  padding: 20px 0px;
+  padding: 20px;
 }
 
-.top {
+.pink {
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.middle {
+.purple {
   background-color: #e0abd9;
 }
 
-.bottom {
+.light-blue {
   background-color:  #b6d8ed;
   width: 100px;  
 }

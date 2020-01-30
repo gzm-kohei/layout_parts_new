@@ -7,9 +7,12 @@
   height: 500px;
   background-color: #ECF1F2;
   position: relative;
+  margin: 0 auto;
 }
 
-.one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+.number-box {
+  font-weight: bold;
+  font-size: 30px;
   height: 100px;
   width: 100px;
   text-align: center;

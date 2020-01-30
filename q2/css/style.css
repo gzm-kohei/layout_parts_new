@@ -1,30 +1,24 @@
 @charset "UTF-8";
 
 .wrapper_box {
-  background-color: #eff3fa;
+  background-color: #eff3f4;
   width: 900px;
   padding: 20px;
   margin: 0 auto;
 }
 
-.text_left { 
+.panel_left { 
   float: left;
 }
 
-.pp_left {
+.text-box {
   font-size: 18px;
   line-height: 22px;
-  text-align: justify;
+  word-break: break-all;
 }
 
-.text_right {
+.panel_right {
   float: right;
-}
-
-.pp_right {
-  font-size: 18px;
-  line-height: 22px;
-  text-align: justify;
 }
 
 /* 回答はここに書いてね */
