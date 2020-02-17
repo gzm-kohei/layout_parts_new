@@ -2,4 +2,108 @@
 
 /* 回答はここに書いてね */
 
+/* floatのボックス */
+
+.clearfix ::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float-box {
+  float: left;
+  width: 225px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.float-box:first-child {
+  margin-left: 0;
+}
+
+/* floatのボックス */
+
+/* tableのボックス */
+
+.inner-box {
+  display: table;
+}
+
+.panel {
+  display: table-cell;
+  vertical-align: middle;
+  width: 225px;
+  padding-left: 50px;
+  font-size: 16px;
+}
+
+.panel:first-child {
+  padding-left: 0;
+}
+
+/* tableのボックス */
+
+/* inline-blockのボックス */
+
+.inner-block {
+  display: block;
+  font-size: 0;
+}
+
+.inline-box {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 225px;
+  margin-left: 50px;
+}
+
+.inline-box:first-child {
+  margin-left: 0;
+}
+
+/* inline-blockのボックス */
+
+/* flexのボックス */
+
+.flex-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-box {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* flexのボックス */
+
+/* inline-blockとmarginのボックス */
+
+.wrapper-box {
+  font-size: 0;
+}
+
+.inner-panel {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.left-panel {
+  width: 300px;
+  vertical-align: top;
+}
+
+.right-panel {
+  width:100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
+
 /* 回答はここに書いてね */
